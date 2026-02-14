@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .a
+        {
+            color:darkmagenta;
+            border: 2px solid;
+            width: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <button>click</button>
+    <button id="a">reclick</button>
+    <script>
+        $("button").click(function()
+    {
+        $("h1").hide()
+    })
+    $("#a").click(function(){
+        $("h1").show()
+        $("h1").add().css("color","red")
+    })
+    </script>
+
+    <!-- <h2>my name is vimal <mark>i am a developer</mark></h2>
+    <button class="t">text</button>
+    <button class="h">html</button>
+    <script>
+        $(".t").click(function(){
+            alert($("h2").text())
+        })
+        $(".h").click(function(){
+            alert($("h2").html())
+        })
+    </script> -->
+
+    <!-- <input type="text" value="java" id="a"><br><br>
+    <button id="b">gettext</button>
+    <button id="c">settext</button>
+    <script>
+        $("#b").click(function()
+    {
+        alert($("#a").val())
+    })
+    $("#c").click(function()
+{
+    $("#a").val("python")
+})
+    </script> -->
+
+    <!-- <img src="download (10).jpg" alt="" width="200px" height="150px">
+    <script>
+        document.writeln($("img").attr("width"))
+        document.writeln($("img").attr("height"))
+        document.writeln($("img").attr("src"))
+    </script> -->
+
+    <!-- <h1>hello</h1>
+    <button class="b">add</button>
+    <button class="c">remove</button>
+    <button class="d">toggle</button>
+    <script>
+        $(".b").click(function()
+    {
+        $("h1").addClass("a")
+    })
+    $(".c").click(function()
+{
+    $("h1").removeClass("a")
+})
+ $(".d").click(function()
+{
+    $("h1").toggleClass("a")
+})
+
+
+    </script>
+</body>
+</html> -->

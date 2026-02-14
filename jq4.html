@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <style>
+        .a,.b,.c
+        {
+            border: 3px solid red;
+            padding: 10px;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <div class="a">
+        <div class="b">
+            <div class="c">
+                <h1>hello</h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        // $("h1").parent().css("border-color","blue")
+        // $("h1").parents(".a").css("background-color","blue")
+        $("h1").parentsUntil(".b").css("background-color","blue")
+    </script> -->
+    <!-- <div class="a">
+        <div class="b">
+            <div class="c">
+                <h1>hello</h1>
+                <h2>python</h2>
+            </div>
+        </div>
+    </div>
+    <script>
+        // $(".a").children().css("background-color","blue"
+        $(".a").find("h2").css("background-color","blue") -->
+
+    <!-- </script> -->
+     <!-- <div>
+        <h1>hello</h1>
+        <h2>python</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ab exercitationem perferendis quisquam eveniet est, maiores laudantium necessitatibus maxime atque a fugit deleniti? Et odio beatae numquam, velit voluptatum laboriosam!</p>
+        <h3>java</h3>
+     </div>
+     <script>
+        $("h2").siblings().css("color","blue")
+        $("h1").next().css("color","blue")
+        $("h1").nextAll().css("color","blue")
+        $("h1").nextUntil("h3").css("color","blue")
+        $("h3").prev().css("color","blue")
+        $("p").prevAll().css("color","blue")
+        $("h").prevUntil().css("color","blue")
+     </script> -->
+
+     <div></div>
+     <button>click</button>
+     <script>
+        $("button").click(function()
+    {
+        $("div").load("tcs.txt")
+    })
+     </script>
+</body>
+</html>

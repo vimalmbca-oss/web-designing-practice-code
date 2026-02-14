@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let a=[12,true,"hello",12,2.34]
+        let b=a[Symbol.iterator]();
+        document.writeln(JSON.stringify(b.next()))
+        document.writeln(JSON.stringify(b.next()))
+        document.writeln(JSON.stringify(b.next()))
+        document.writeln(JSON.stringify(b.next()))
+        document.writeln(JSON.stringify(b.next()))
+        document.writeln(JSON.stringify(b.next()))
+    </script> -->
+    <!-- <script>
+        function*demo()
+        {
+            yield 12;
+            yield "hello";
+            yield true;
+        }
+        let a=demo()
+        document.writeln(JSON.stringify(a.next()))
+        document.writeln(JSON.stringify(a.next()))
+        document.writeln(JSON.stringify(a.next()))
+        document.writeln(JSON.stringify(a.next()))
+    </script> -->
+    <!-- <script> 
+        function*demo()
+        {
+            // yield 12;
+            // yield "hello";
+            // yield true;
+            return 12;
+        }
+        let a=demo()
+        document.writeln(JSON.stringify(a.next()))
+        document.writeln(JSON.stringify(a.next()))
+        document.writeln(JSON.stringify(a.next()))
+        document.writeln(JSON.stringify(a.next()))
+    </script> -->
+    <!-- <script>
+        try
+        {
+            let a=parseInt(prompt("enter the number"))
+            let b=parseInt(prompt("enter the number"))
+            let c=a/b
+            document.writeln(c+"<br>")
+        }
+        catch(error)
+        {
+            document.writeln(error.message)
+        }
+    </script> -->
+    <!-- <script>
+        try
+        {
+            let a=parseInt(prompt("enter the the number"))
+            let b=parseInt(prompt("enter the the number"))
+            if(b==0)
+        {
+            throw new Error("b value is zero")
+        }
+        let c=a/b
+        document.writeln(c+"<br>")
+        }
+        catch(error)
+        {
+            document.writeln(error.message)
+        }
+        finally
+        {
+            document.writeln("hello")
+        }
+    </script> -->
+    <!-- <button id="a">click</button> -->
+    <!-- <script>
+        document.getElementById("a").addEventListener("click",demo)
+        function demo()
+        {
+            alert("hello js")
+            alert("clicked")
+
+        }
+    </script> -->
+    <!-- <script>
+        document.getElementById("a").addEventListener("click",vimal)
+        function vimal()
+        {
+            let a=parseInt(prompt("enter the the number"))
+            let b=parseInt(prompt("enter the the number"))
+            fun(a,b)   
+        }
+        function fun(a,b)
+        { 
+            let c=a+b
+            document.writeln(c)
+        }
+    </script> -->
+    <button class="f" onclick="demo()">forward</button>
+    <button class="b" onclick="a()">back</button>
+    <button class="r" onclick="b()">refesh</button>
+    <br><br>
+    <a href="https://www.youtube.com/">youtube</a>
+    <script>
+        function demo()
+        {
+            history.forward() 
+        }
+        function a()
+        {
+            history.back()
+        }
+        function b()
+        {
+            history.go()
+        }
+    </script>
+</body>
+</html>

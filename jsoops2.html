@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        class java
+        {
+            name="james gosling"
+            progam()
+            {
+                document.writeln(this.name+"<br>")
+            }
+        }
+        class python extends java
+        {
+            author="guido van rossum"
+            easy()
+            {
+                document.writeln(this.author+"<br>")
+            }
+        }
+        class html extends java
+        {
+            deve="tim berners lee "
+            fun()
+            {
+                document.writeln(this.deve)
+            }
+        }
+        let a=new python()
+        a.progam()
+        a.easy()
+        let b=new html()
+        b.progam()
+        b.fun()
+    </script> -->
+    <!-- <script>
+        class vimal
+        {
+            constructor()
+            {
+                document.writeln("highlevel language"+"<br>")
+            }
+            program()
+            {
+                document.writeln("hello java"+"<br")
+            }
+        }
+        new vimal
+        let a=new vimal()
+        a.program()
+    </script> -->
+    <!-- <script>
+        class cal
+        {
+            add(a,b)
+            {
+                if(b==undefined )
+            {
+                document.writeln(a)
+            }
+            else if(a==undefined)
+            {
+                document.writeln(b)
+            }
+            else if(typeof a=="string"&& typeof b=="string")
+            {
+                document.writeln(a+b+"<br>")
+            }
+            else if (typeof a=="number"&& typeof b=="number")
+            {
+                let c=a+b
+                document.writeln(c)
+            }
+            }
+        }
+        let a=new cal
+        a.add(12)
+        a.add(12,12)
+        a.add("hello","java")   
+    </script> -->
+    <!-- <script>
+        class java
+        {
+            program()
+            {
+                document.write("hello java"+"<br")
+            }
+        }
+        class python extends java
+        {
+            program()
+            {
+                document.writeln("hello python"+"<br>")
+                super.program()
+            }
+        }
+        let a=new python()
+        a.program() -->
+        <!-- <script>
+            class animal
+            {
+                sound()
+                {
+                    document.writeln("hello"+"<br>")
+                }
+            }
+            class cat extends animal
+            {
+                sound()
+                {
+                    document.writeln("mewooooooooooo"+"<br>")
+                    super.sound()
+                }
+            }
+            class cow extends animal
+            {
+                 sound()
+                {
+                    document.writeln("maaa maaaaa"+"<br>")
+                }
+            }
+            let a=new cat()
+            a.sound()
+            let b=new cow()
+            b.sound()
+        </script>
+    </script> -->
+    <script>
+        class students
+        {
+            #mark
+            name
+            constructor(name,mark)
+            {
+                this.#mark=mark
+                this.name=name
+            }
+            get_name()
+            {
+                return this.name
+            }
+            get_mark()
+            {
+                return this.#mark
+            }
+            set_mark()
+            {
+                if(mark>0 && mark<=100)
+            {
+                this.#mark=mark
+            }
+            else
+            {
+                document.writeln("wrong mark")
+            }
+            }
+        }
+        let a=new students("java",98)
+        document.writeln(a.get_name()+" "+a.get_mark())
+  </script>
+</body>
+</html>

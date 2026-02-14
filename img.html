@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="e"></h1>
+    <button id="m" onclick="sub()">-</button>
+    <img src="" alt="" id="c" width="200px" height="200px">
+    <button id="a" onclick="add()">+</button>
+    <script>
+        img=["10011.jpg","10008.jpg","10009.jpg","10010.jpg","10012.jpg"]
+        z=0
+        document.getElementById("c").src=img[z]
+        function add()
+        {
+            z+=1
+            if(z>=img.length)
+        {
+          z=0  
+        }
+        document.getElementById("c").src=img[z]
+        }
+        function sub()
+        {
+            z=z-1
+            if(z<0)
+        {
+            z=img.length-1
+        }
+        document.getElementById("c").src=img[z]
+        }
+    </script>
+</body>
+</html>
